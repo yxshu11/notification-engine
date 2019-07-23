@@ -5,7 +5,7 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: postgis
+  adapter: postgresql
   encoding: unicode
   database: <%= ENV['DB_NAME'] %>
   username: <%= ENV['DB_USERNAME'] %>
